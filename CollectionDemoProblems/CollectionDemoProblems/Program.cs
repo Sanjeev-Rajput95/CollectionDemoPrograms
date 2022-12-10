@@ -10,6 +10,7 @@
             DemoClass obj = new DemoClass();
             obj.DictionaryDemo();
             obj.QueueProblem();
+            obj.StackProblem();
         }
     }
 }
