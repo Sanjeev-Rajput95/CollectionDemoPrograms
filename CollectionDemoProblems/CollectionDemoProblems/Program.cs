@@ -11,6 +11,7 @@
             obj.DictionaryDemo();
             obj.QueueProblem();
             obj.StackProblem();
+            obj.ListProblem();
         }
     }
 }

@@ -101,5 +101,20 @@ namespace CollectionDemoProblems
             }
             Console.WriteLine($"\nPoped element: {objPop}");
         }
+
+        public void ListProblem()
+        {
+            Console.WriteLine("\n**********List Demo**********");
+
+            List<int> objList = new List<int>();
+            objList.Add(1);
+            objList.Add(2);
+            objList.Add(3);
+            objList.Add(4);
+            foreach (var element in objList)
+            {
+                Console.WriteLine(element);
+            }
+        }
     }
 }
